@@ -35,7 +35,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Initialize git: `git init`.
   - Add origin remote: `git remote add origin https://github.com/albinzdaniel02/sample-springboot-kubernetes.git`.
   - Create a basic `README.md` and commit/push the initial repository state to `main`.
-- [ ] **P0-EC**: Phase 0 Exit Check
+- [x] **P0-EC**: Phase 0 Exit Check
   - Verify that the local git remote is pointing to `https://github.com/albinzdaniel02/sample-springboot-kubernetes.git`.
   - Verify that the repository is successfully pushed to the remote repository.
 
