@@ -84,10 +84,10 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 - [x] **P3-01**: Implement `BookService`
   - Create a service class/interface (`BookService`/`BookServiceImpl`) to handle business logic.
   - Define methods: `getAllBooks()`, `getBookById(id)`, `createBook(book)`, `updateBook(id, book)`, `deleteBook(id)`.
-- [ ] **P3-02**: Write Service Unit Tests
+- [x] **P3-02**: Write Service Unit Tests
   - Implement `BookServiceTest` using Mockito (`@ExtendWith(MockitoExtension.class)`).
   - Mock `BookRepository` behavior and test all service method paths (success and failure/not found cases).
-- [ ] **P3-EC**: Phase 3 Exit Check
+- [x] **P3-EC**: Phase 3 Exit Check
   - Run service layer tests using `./mvnw test -Dtest=BookServiceTest`.
   - Verify all service logic paths (including exceptions for not-found books) pass successfully.
 
