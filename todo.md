@@ -70,10 +70,10 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Create the `Book` JPA entity with fields: `Long id`, `String title`, `String author`, `String isbn`, `Double price`.
   - Add Lombok annotations (`@Data`, `@NoArgsConstructor`, `@AllArgsConstructor`, `@Entity`).
   - Create `BookRepository` interface extending `JpaRepository<Book, Long>`.
-- [ ] **P2-02**: Write Repository Unit Tests
+- [x] **P2-02**: Write Repository Unit Tests
   - Implement `BookRepositoryTest` using `@DataJpaTest`.
   - Test cases: saving a book, finding a book by ID, retrieving all books, updating a book, and deleting a book.
-- [ ] **P2-EC**: Phase 2 Exit Check
+- [x] **P2-EC**: Phase 2 Exit Check
   - Run database repository unit tests using `./mvnw test -Dtest=BookRepositoryTest`.
   - Verify JPA schema creation log statements match the entity definition.
 
