@@ -81,7 +81,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 3: Service Layer (P3)
 
-- [ ] **P3-01**: Implement `BookService`
+- [x] **P3-01**: Implement `BookService`
   - Create a service class/interface (`BookService`/`BookServiceImpl`) to handle business logic.
   - Define methods: `getAllBooks()`, `getBookById(id)`, `createBook(book)`, `updateBook(id, book)`, `deleteBook(id)`.
 - [ ] **P3-02**: Write Service Unit Tests
