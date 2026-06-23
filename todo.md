@@ -57,7 +57,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 - [x] **P1-04**: Configure & Test Actuator Health Endpoint
   - Ensure Spring Boot Actuator is functional.
   - Write an integration/unit test using `@SpringBootTest` and `MockMvc` or `@WebMvcTest` to verify that `GET /actuator/health` returns status `200 OK` and contains `"status": "UP"`.
-- [ ] **P1-EC**: Phase 1 Exit Check
+- [x] **P1-EC**: Phase 1 Exit Check
   - Verify project compiles and runs locally.
   - Execute `./mvnw clean test` and verify that the Actuator Health endpoint unit test passes.
   - Verify that the workflow files are committed, pushed, and trigger successfully on GitHub.
@@ -66,7 +66,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 2: Domain Model & Data Access (P2)
 
-- [ ] **P2-01**: Implement `Book` Entity & Repository
+- [x] **P2-01**: Implement `Book` Entity & Repository
   - Create the `Book` JPA entity with fields: `Long id`, `String title`, `String author`, `String isbn`, `Double price`.
   - Add Lombok annotations (`@Data`, `@NoArgsConstructor`, `@AllArgsConstructor`, `@Entity`).
   - Create `BookRepository` interface extending `JpaRepository<Book, Long>`.
