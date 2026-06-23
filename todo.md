@@ -95,7 +95,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 4: API Layer & Full End-to-End Verification (P4)
 
-- [ ] **P4-01**: Implement `BookController`
+- [x] **P4-01**: Implement `BookController`
   - Create `BookController` with `@RestController` and `@RequestMapping("/api/books")`.
   - Map endpoints:
     - `GET /api/books` -> Returns `List<Book>`
