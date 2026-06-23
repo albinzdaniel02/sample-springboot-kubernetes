@@ -103,9 +103,9 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
     - `POST /api/books` -> Creates a new book and returns `201 Created`
     - `PUT /api/books/{id}` -> Updates an existing book (or 404 Not Found)
     - `DELETE /api/books/{id}` -> Deletes the book and returns `204 No Content` (or 404 Not Found)
-- [ ] **P4-02**: Write Controller Integration/Unit Tests
+- [x] **P4-02**: Write Controller Integration/Unit Tests
   - Implement `BookControllerTest` using `@WebMvcTest(BookController.class)`.
   - Use `MockMvc` to test all HTTP endpoints, verifying status codes, request bodies, and correct interactions with `BookService`.
-- [ ] **P4-EC**: Phase 4 Exit Check
+- [x] **P4-EC**: Phase 4 Exit Check
   - Run the entire test suite using `./mvnw clean test` and ensure all tests pass (Ping, Repository, Service, and Controller).
   - Boot the application using `./mvnw spring-boot:run` and verify API endpoints and `/h2-console` manually.
