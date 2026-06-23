@@ -50,7 +50,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Configure `src/main/resources/application.yml` for H2 In-Memory Database and Spring Boot Actuator.
   - Enable H2 Console (`spring.h2.console.enabled=true` under web settings) for manual verification.
   - Configure Actuator exposure if needed (by default, `/actuator/health` is exposed).
-- [ ] **P1-03**: Setup GitHub CI/CD Workflows
+- [x] **P1-03**: Setup GitHub CI/CD Workflows
   - Create `.github/workflows/ci.yml` for Maven compilation and testing.
     - Steps: Check out code, setup Java 21, cache Maven dependencies, and run `./mvnw clean test` on pull requests and pushes to `main`.
   - Create `.github/workflows/cd.yml` (or include CD steps in CI) to automate executable/package building or Docker image assembly when pull requests merge to `main`.
