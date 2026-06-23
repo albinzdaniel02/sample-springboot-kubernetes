@@ -54,7 +54,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Create `.github/workflows/ci.yml` for Maven compilation and testing.
     - Steps: Check out code, setup Java 21, cache Maven dependencies, and run `./mvnw clean test` on pull requests and pushes to `main`.
   - Create `.github/workflows/cd.yml` (or include CD steps in CI) to automate executable/package building or Docker image assembly when pull requests merge to `main`.
-- [ ] **P1-04**: Configure & Test Actuator Health Endpoint
+- [x] **P1-04**: Configure & Test Actuator Health Endpoint
   - Ensure Spring Boot Actuator is functional.
   - Write an integration/unit test using `@SpringBootTest` and `MockMvc` or `@WebMvcTest` to verify that `GET /actuator/health` returns status `200 OK` and contains `"status": "UP"`.
 - [ ] **P1-EC**: Phase 1 Exit Check
