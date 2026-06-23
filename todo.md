@@ -46,7 +46,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 - [x] **P1-01**: Initialize Maven Spring Boot Project
   - Set up a Maven-based Spring Boot project (Java 21, Spring Boot 3.x) with `pom.xml` and Maven Wrapper.
   - Dependencies in `pom.xml`: `spring-boot-starter-web`, `spring-boot-starter-data-jpa`, `spring-boot-starter-actuator`, `h2`, `lombok`, `spring-boot-starter-test`.
-- [ ] **P1-02**: Configure Application Properties
+- [/] **P1-02**: Configure Application Properties
   - Configure `src/main/resources/application.yml` for H2 In-Memory Database and Spring Boot Actuator.
   - Enable H2 Console (`spring.h2.console.enabled=true` under web settings) for manual verification.
   - Configure Actuator exposure if needed (by default, `/actuator/health` is exposed).
