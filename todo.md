@@ -31,7 +31,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 0: Git Repository Initialization (P0)
 
-- [/] **P0-01**: Initialize Git Repository
+- [x] **P0-01**: Initialize Git Repository
   - Initialize git: `git init`.
   - Add origin remote: `git remote add origin https://github.com/albinzdaniel02/sample-springboot-kubernetes.git`.
   - Create a basic `README.md` and commit/push the initial repository state to `main`.
