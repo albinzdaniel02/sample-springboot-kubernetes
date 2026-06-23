@@ -43,7 +43,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 1: Project Initialization, Configuration & CI/CD (P1)
 
-- [ ] **P1-01**: Initialize Maven Spring Boot Project
+- [x] **P1-01**: Initialize Maven Spring Boot Project
   - Set up a Maven-based Spring Boot project (Java 21, Spring Boot 3.x) with `pom.xml` and Maven Wrapper.
   - Dependencies in `pom.xml`: `spring-boot-starter-web`, `spring-boot-starter-data-jpa`, `spring-boot-starter-actuator`, `h2`, `lombok`, `spring-boot-starter-test`.
 - [ ] **P1-02**: Configure Application Properties
