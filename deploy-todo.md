@@ -57,7 +57,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Establish a port-forward to the Service: `kubectl port-forward svc/sample-springboot-service 8080:8080`.
   - Test the Actuator health endpoint from the host: `curl http://localhost:8080/actuator/health` (or PowerShell equivalent).
   - Verify the response contains `"status": "UP"` and returns HTTP `200 OK`.
-- [ ] **P2-04**: Clean Up Kubernetes Resources
+- [done] **P2-04**: Clean Up Kubernetes Resources
   - Stop the port-forward process.
   - Delete all deployed resources from the cluster: `kubectl delete -f k8s/`.
 - [ ] **P2-EC**: Phase 2 Exit Check
