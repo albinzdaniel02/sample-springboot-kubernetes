@@ -49,7 +49,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 - [done] **P2-01**: Build and Load Image to Local K8s Environment
   - Connect to the local Kubernetes cluster's docker daemon (e.g., if using Minikube, run environment setting command or configure kind to load images).
   - Build/ensure the `sample-springboot:latest` Docker image is available inside the K8s cluster's node.
-- [ ] **P2-02**: Apply Manifests and Verify Pod Startup
+- [done] **P2-02**: Apply Manifests and Verify Pod Startup
   - Apply the manifests in the `k8s/` directory to the cluster: `kubectl apply -f k8s/`.
   - Check the pod status and wait for it to transition to `Running` state: `kubectl get pods`.
   - Inspect the pod logs to verify that the application started up successfully: `kubectl logs -l app=sample-springboot`.
