@@ -41,7 +41,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
     - `.mvn/wrapper/maven-wrapper.jar`
     - `mvnw.cmd`
     - `.gitignore`
-- [ ] **P1-02**: Implement Multi-Stage `Dockerfile`
+- [x] **P1-02**: Implement Multi-Stage `Dockerfile`
   - Create a `Dockerfile` in the root directory using a multi-stage approach.
   - **Build Layer**:
     - Use `eclipse-temurin:21-jdk-alpine` as the base image for compilation.
