@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sample-springboot-config
+data:
+  SPRING_PROFILES_ACTIVE: prod
+  LOGGING_LEVEL_ORG_SPRINGFRAMEWORK: INFO
