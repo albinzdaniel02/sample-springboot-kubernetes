@@ -46,7 +46,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 2: Local Cluster Setup & Deployment Verification (P2)
 
-- [ ] **P2-01**: Build and Load Image to Local K8s Environment
+- [done] **P2-01**: Build and Load Image to Local K8s Environment
   - Connect to the local Kubernetes cluster's docker daemon (e.g., if using Minikube, run environment setting command or configure kind to load images).
   - Build/ensure the `sample-springboot:latest` Docker image is available inside the K8s cluster's node.
 - [ ] **P2-02**: Apply Manifests and Verify Pod Startup
