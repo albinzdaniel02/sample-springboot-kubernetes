@@ -35,7 +35,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Create a directory named `k8s` in the root workspace.
   - Create `k8s/configmap.yaml` containing application configurations (e.g. logging levels or profile settings).
   - Create `k8s/secret.yaml` containing a base64 encoded dummy credential.
-- [ ] **P1-02**: Create Deployment & Service Manifests
+- [done] **P1-02**: Create Deployment & Service Manifests
   - Create `k8s/deployment.yaml` with a replica count of 1, selector `app: sample-springboot`, exposing port 8080, using the image `sample-springboot:latest` (configured with `imagePullPolicy: IfNotPresent`), and referencing the ConfigMap and Secret as environment variables.
   - Create `k8s/service.yaml` defining a `ClusterIP` Service exposing the application deployment on port 8080.
 - [ ] **P1-EC**: Phase 1 Exit Check
