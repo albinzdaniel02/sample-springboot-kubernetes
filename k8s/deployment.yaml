@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-springboot
+  labels:
+    app: sample-springboot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sample-springboot
+  template:
+    metadata:
+      labels:
+        app: sample-springboot
+    spec:
+      containers:
+      - name: sample-springboot
+        image: sample-springboot:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        envFrom:
+        - configMapRef:
+            name: sample-springboot-config
+        - secretRef:
+            name: sample-springboot-secret
