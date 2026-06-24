@@ -57,7 +57,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
     - Configure the container user context to run as the non-root user (`USER spring:spring`).
     - Expose port `8080`.
     - Set the default command/entrypoint to run the JAR: `ENTRYPOINT ["java", "-jar", "app.jar"]`.
-- [ ] **P1-EC**: Phase 1 Exit Check
+- [x] **P1-EC**: Phase 1 Exit Check
   - Verify that `.dockerignore` and `Dockerfile` are successfully created in the root directory.
   - Verify that the Dockerfile contains both the build (JDK) stage and runtime (JRE) stage.
 
@@ -65,17 +65,17 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 
 ## Phase 2: Local Build & Verification (P2)
 
-- [ ] **P2-01**: Build the Docker Image
+- [x] **P2-01**: Build the Docker Image
   - Run `docker build -t sample-springboot:latest .` locally.
   - Verify that the image builds without errors.
   - Verify the resulting image is visible in local registry and check its size (confirming a slim JRE layer is used).
-- [ ] **P2-02**: Run and Test the Container
+- [x] **P2-02**: Run and Test the Container
   - Start the container locally using: `docker run -d -p 8080:8080 --name sample-app sample-springboot:latest`.
   - Check the startup logs using `docker logs sample-app` to verify the Spring Boot application started successfully.
   - Test the Actuator health endpoint from the host: `curl http://localhost:8080/actuator/health` (or PowerShell command `Invoke-RestMethod -Uri http://localhost:8080/actuator/health`).
   - Verify the response contains `"status": "UP"` and returns HTTP `200 OK`.
-- [ ] **P2-03**: Clean Up Local Resources
+- [x] **P2-03**: Clean Up Local Resources
   - Stop and remove the test container: `docker stop sample-app && docker rm sample-app`.
-- [ ] **P2-EC**: Phase 2 Exit Check
+- [x] **P2-EC**: Phase 2 Exit Check
   - Verify that the container runs successfully and the Actuator health check passes.
   - Verify that all temporary containers are cleaned up.
