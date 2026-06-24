@@ -53,7 +53,7 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
   - Apply the manifests in the `k8s/` directory to the cluster: `kubectl apply -f k8s/`.
   - Check the pod status and wait for it to transition to `Running` state: `kubectl get pods`.
   - Inspect the pod logs to verify that the application started up successfully: `kubectl logs -l app=sample-springboot`.
-- [ ] **P2-03**: Verify Service Connection via Port-Forwarding
+- [done] **P2-03**: Verify Service Connection via Port-Forwarding
   - Establish a port-forward to the Service: `kubectl port-forward svc/sample-springboot-service 8080:8080`.
   - Test the Actuator health endpoint from the host: `curl http://localhost:8080/actuator/health` (or PowerShell equivalent).
   - Verify the response contains `"status": "UP"` and returns HTTP `200 OK`.
