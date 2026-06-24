@@ -60,5 +60,5 @@ For every task listed below (starting from Phase 1), the coding/developer agent 
 - [done] **P2-04**: Clean Up Kubernetes Resources
   - Stop the port-forward process.
   - Delete all deployed resources from the cluster: `kubectl delete -f k8s/`.
-- [ ] **P2-EC**: Phase 2 Exit Check
+- [done] **P2-EC**: Phase 2 Exit Check
   - Verify that all temporary Kubernetes resources (Deployment, Service, ConfigMap, Secret) are cleaned up and deleted from the cluster.
